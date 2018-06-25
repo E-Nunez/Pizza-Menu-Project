@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="./css/pizza_style.css">
+	<title>Pizza Menu Project</title>
+</head>
+<body>
+	<div id="cart">
+		<div id="showText1"></div>
+		<div id="showText2"></div>
+		<div id="totalPrice"></div>
+	</div>
+	<div class="container">
+		<div class="pmenu">
+			<h1>Pizza Menu!</h1>
+		</div>
+		<form id="pselection">
+			<section>
+				<label class="menu-left">
+					<h3>Size:</h3>
+					<input type="radio" name="Size" value="Personal Pizza" class="size" checked>Personal Pizza<br>
+					<input type="radio" name="Size" value="Medium Pizza" class="size">Medium Pizza<br>
+					<input type="radio" name="Size" value="Large Pizza" class="size">Large Pizza<br>
+					<input type="radio" name="Size" value="Extra Large Pizza" class="size">Extra Large Pizza
+				</label>
+				<label class="menu-right">
+					<h3>Meats:</h3>
+					<input type="checkbox" name="Meats" value="Pepperoni" class="meats">Pepperoni<br>
+					<input type="checkbox" name="Meats" value="Sausage" class="meats">Sausage<br>
+					<input type="checkbox" name="Meats" value="Canadian Bacon" class="meats">Canadian Bacon<br>
+					<input type="checkbox" name="Meats" value="Ground Beef" class="meats">Ground Beef<br>
+					<input type="checkbox" name="Meats" value="Anchovy" class="meats">Anchovy<br>
+					<input type="checkbox" name="Meats" value="Chicken" class="meats">Chicken
+				</label>
+			</section>
+			<section>
+				<label class="menu-left">
+					<h3>Cheese:</h3>
+					<input type="radio" name="Cheese" value="Regular Cheese" class="cheese" checked>Regular Cheese<br>
+					<input type="radio" name="Cheese" value="No Cheese" class="cheese">No Cheese<br>
+					<input type="radio" name="Cheese" value="Extra Cheese" class="cheese">Extra Cheese
+				</label>
+				<label class="menu-right">
+					<h3>Crust:</h3>
+					<input type="radio" name="Crust" value="Plain Crust" class="crust" checked>Plain Crust<br>
+					<input type="radio" name="Crust" value="Garlic Butter Crust" class="crust">Garlic Butter Crust<br>
+					<input type="radio" name="Crust" value="Cheese Stuffed Crust" class="crust">Cheese Stuffed Crust<br>
+					<input type="radio" name="Crust" value="Spicy Crust" class="crust">Spicy Crust<br>
+					<input type="radio" name="Crust" value="House Special Crust" class="crust">House Special Crust
+				</label>
+			</section>
+			<section>
+				<label class="menu-left">
+					<h3>Sauce:</h3>
+					<input type="radio" name="Sauce" value="Marinara sauce" class="sauce"checked>Marinara sauce<br>
+					<input type="radio" name="Sauce" value="White sauce" class="sauce">White sauce<br>
+					<input type="radio" name="Sauce" value="Barbeque sauce" class="sauce">Barbeque sauce<br>
+					<input type="radio" name="Sauce" value="No Sauce" class="sauce">No Sauce
+				</label>
+				<label class="menu-right">
+					<h3>Veggies:</h3>
+					<input type="checkbox" name="Veggies" value="Tomatoes" class="veggies">Tomatoes<br>
+					<input type="checkbox" name="Veggies" value="Onions" class="veggies">Onions<br>
+					<input type="checkbox" name="Veggies" value="Olives" class="veggies">Olives<br>
+					<input type="checkbox" name="Veggies" value="Green Peppers" class="veggies">Green Peppers<br>
+					<input type="checkbox" name="Veggies" value="Mushrooms" class="veggies">Mushrooms<br>
+					<input type="checkbox" name="Veggies" value="Pineapple" class="veggies">Pineapple<br>
+					<input type="checkbox" name="Veggies" value="Spinach" class="veggies">Spinach<br>
+					<input type="checkbox" name="Veggies" value="Jalapeno" class="veggies">Jalapeno
+				</label>
+			</section>
+			<button type="button" onclick="getReceipt()">Order Now</button>
+		</form>
+	</div>
+
+	<script type="text/JavaScript" src="./js/receipt_pizza.js"></script>
+</body>
+</html>

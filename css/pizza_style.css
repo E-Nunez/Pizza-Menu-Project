@@ -1,0 +1,85 @@
+.pmenu {
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-left: 150px;
+}
+
+#pselection {
+	width: 700px;
+	
+}
+
+section {
+	width:700px;
+	height:300px;
+}
+
+.menu-left,
+.menu-right {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	background-color: rgba(255, 255, 0, 0.4);
+	border: 2px solid #000;
+	border-radius: 15px;
+}
+
+.menu-right {
+	position: absolute;
+	margin-left: 3%;
+}
+
+h3{
+	width: 100%;
+	height: auto;
+	background-color: #e9300b;
+	border-bottom: 2px dotted #000;
+	border-radius: 13px 13px 0 0;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.menu-left input {
+	margin-bottom: 25px;
+}
+
+.menu-right input {
+	margin-bottom: 10px;
+}
+
+#cart {
+	opacity: 0;
+	width: 500px;
+	height:auto;
+	background-color: rgba(255, 255, 0, 0.4);
+	border: 2px solid #000;
+	border-radius: 15px;
+	position: absolute;
+	top: 750px;
+	left: 700px;
+}
+
+#showText1 {
+	width: 250px;
+	float:left;
+}
+#showText2 {
+	width:250px;
+	float:right;
+}
+#showText1 h2, #showText2 h2 {
+	text-decoration: underline dotted;
+}
+
+button {
+	width:150px;
+	height:50px;
+	position: relative;
+	bottom: 10px;
+	left: 200px;
+	font-size: 25px;
+}
+
